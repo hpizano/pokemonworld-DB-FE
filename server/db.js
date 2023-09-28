@@ -9,9 +9,6 @@ const client = new pg.Client('postgres://localhost/pokemonworld');
       const response = await client.query(SQL)
       return response.rows
     }
-
-  
-  
   
 
   const seed = async() => {

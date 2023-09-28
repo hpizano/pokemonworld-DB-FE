@@ -9,3 +9,19 @@ nav{
 nav > * {
   flex: 1;
 }
+
+.assign{
+  display: flex;
+}
+
+.assign > h1 {
+  flex: 1;
+}
+
+.form{
+  display: flex;
+}
+
+.form > form{
+  flex: 1;
+}
